@@ -6,7 +6,7 @@ box-sizing: border-box;
 html,body{
 height: 100%;
 width: 100%;
-
+overflow-x: hidden;
 }
 .head1{
     color: white;
@@ -15,7 +15,7 @@ width: 100%;
 
 .search1{
 
-    width: 577px;
+    width: 60vw;
     height: Hug (48px)px;
     padding: 12px 16px 12px 16px;
     gap: 12px;
@@ -88,4 +88,28 @@ left: 79px;
     left: 5px;
     bottom: 318px;
   
+}
+
+.back1{
+    width: 100vw;
+    height: 122px;
+    top: 797px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: black;
+
+}
+
+.list1{
+
+display: flex;
+list-style-type: none;
+justify-content: space-evenly;
+align-items: center;
+position:relative;
+bottom: -44px;
+
+
+
+
 }
